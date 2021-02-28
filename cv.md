@@ -17,3 +17,12 @@ Development addictive and you can't stop. Now I only see my life in development.
 * Linux
 * Figma
 
+### Code examples
+You can find my code on [Gitgub](https://github.com/EugeneBobrovnik)
+
+### Education
+* University
+    * Belarusian State Technological University (2009-2017), Woodworking Technology, engineer
+
+### English
+A2 level
