@@ -18,7 +18,7 @@ Development addictive and you can't stop. Now I only see my life in development.
 * Figma
 
 ### Code examples
-You can find my code on [Gitgub](https://github.com/EugeneBobrovnik)
+You can find my code on [Gitgub](https://github.com/eugenius-l2)
 
 ### Education
 * University
