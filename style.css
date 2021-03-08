@@ -119,6 +119,8 @@ details { font-size: 1.6rem; }
 
 details { background-color: #f5f0f0; }
 
+details:hover { cursor: pointer; }
+
 summary {
   background-color: #fff;
   outline: none;
