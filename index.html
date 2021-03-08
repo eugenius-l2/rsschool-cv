@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./style.css">
   <title>Eugene Bobrovnik rsschool-cv</title>
 </head>
@@ -14,7 +16,7 @@
         <img class="photo" src="./assets/images/photo.jpg" alt="Eugene Bobrovnik">
       </div>
       <div class="column">
-        <h1 class="name">Eugene Bobrovnik</h1>
+        <h1 class="name">Eugene<br> Bobrovnik</h1>
         <h2 class="vacancy">Junior Front-end Developer </h2>
       </div>
     </header>
@@ -23,7 +25,7 @@
         <section class="section">
           <h3 class="section__head">Contacts</h3>
           <address class="contacts">
-            <ul class="contacts__list">
+            <ul class="list contacts__list">
               <li class="contacts__item"><a class="contacts__link" target="_blank" href="https://yandex.by/maps/-/CCUMb-uTCC">Belarus, Minsk</a></li>
               <li class="contacts__item"><a class="contacts__link" href="https://t.me/eugenius_l2">Telegram</a></li>
               <li class="contacts__item"><a class="contacts__link" href="mailto:eugene.bobrovnik@gmail.com">Email</a></li>
@@ -32,10 +34,10 @@
         </section>
         <section class="section">
           <h3 class="section__head">Education</h3>
-          <ul class="education__list">
+          <ul class="list education__list">
             <li class="education__item">
               <h4>University</h4>
-              <ul class="university__list">
+              <ul class=" list university__list">
                 <li class="university__item">(2009-2017)</li>
                 <li class="university__item">Belarusian State Technological University</li>
                 <li class="university__item">Woodworking Technology, engineer</li>
@@ -45,7 +47,7 @@
         </section>
         <section class="section">
           <h3 class="section__head">Languages</h3>
-          <ul class="languages__list">
+          <ul class="list languages__list">
             <li class="languages__item">English - A2</li>
             <li class="languages__item">Russian - С1</li>
             <li class="languages__item">Belarusian - B2</li>
@@ -59,7 +61,7 @@
         </section>
         <section class="section">
           <h3 class="section__head">Skills</h3>
-          <ul class="skills__list">
+          <ul class="list skills__list">
             <li class="skills__item">HTML5</li>
             <li class="skills__item">CSS3</li>
             <li class="skills__item">Java Script (ES6)</li>
@@ -72,15 +74,7 @@
           <h3 class="section__head">Exampes code</h3>
           <details class="details">
             <summary>Code</summary>
-            <pre> 
-              <code>
-                const count = (string) => {
-                  const obj = {};
-                  string.split('').forEach((item) => obj[item] ? obj[item] = obj[item] + 1 : obj[item] = 1);
-                  return obj;
-                }
-              </code>
-            </pre>
+            <code>const reverseSeq = n => Array.from(Array(n)).map((el, i) => i + 1).reverse();</code>
           </details>
         </section>
       </div>
